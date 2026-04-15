@@ -6,7 +6,6 @@ Le projet represente une boutique catalogue avec listes, recherche, detail produ
 
 ## Format attendu
 
-
 Completer au minimum 3 user stories.
 
 ## 📄 User Story 1 : Exploration du service (Visiteur)
