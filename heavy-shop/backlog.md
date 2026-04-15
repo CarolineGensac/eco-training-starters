@@ -6,6 +6,7 @@ Le projet represente une boutique catalogue avec listes, recherche, detail produ
 
 ## Format attendu
 
+
 Completer au minimum 3 user stories.
 
 ## 📄 User Story 1 : Exploration du service (Visiteur)
@@ -41,4 +42,13 @@ Completer au minimum 3 user stories.
 * **✅ Critère de réussite :** 80% des trajets publiés incluent au moins une étape suggérée automatiquement.
 * **⚡ Niveau de priorité :** Haute.
 
+## 📄 User Story 4 : Accessibilité de la recherche (Utilisateur Daltonien)
+
+* **👤 Contexte :** En tant qu'**utilisateur daltonien**, je veux **pouvoir identifier clairement les éléments de saisie et les résultats de recherche**, afin de **naviguer sans erreur malgré ma perception limitée des couleurs.**
+* **🎯 Objectif :** Garantir une interface inclusive et utilisable efficacement par tous.
+* **🌱 Bonne pratique d'éco-conception ciblée :** **Permettre aux personnes en situation de handicap ou porteur de déficiences, d'accéder et d'utiliser efficacement le service numérique** ([Source GR491 - Famille UX/UI](https://gr491.isit-europe.org/crit.php?id=4-3026-uxui-au-dela-des-aspects-purement-reglementaires-lanticipation)).
+* **📊 KPI associé :** Taux de conformité pour les contrastes et score de satisfaction lors de tests utilisateur en situation de handicap.
+* **💻 Repo ou écran concerné :** Page d'accueil, Barre de recherche, Liste de résultats.
+* **✅ Critère de réussite :** L'interface est entièrement navigable sans dépendre uniquement de la couleur.
+* **⚡ Niveau de priorité :** Haute.
 
