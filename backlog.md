@@ -8,6 +8,7 @@ Le projet represente une boutique catalogue avec listes, recherche, detail produ
 
 Completer au minimum 3 user stories.
 
+
 ## 📄 User Story 1 : Exploration du service (Visiteur)
 
 * **👤 Contexte :** En tant que **visiteur**, je veux **consulter les trajets disponibles pour un trajet précis**, afin de **décider si le service répond à mes besoins de déplacement futurs.**
