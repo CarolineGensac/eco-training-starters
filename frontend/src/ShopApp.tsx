@@ -92,7 +92,7 @@ function CommerceHeader({ cartCount }: { cartCount: number }) {
 function ProductCard({ product }: { product: Product }) {
   return (
     <article className="shop-product-card">
-      <img src={product.heroAsset} alt={product.name} />
+      <img src={product.heroAsset} alt={product.name} loading="lazy"/>
       <div className="shop-product-copy">
         <span>{product.category}</span>
         <h3>{product.name}</h3>
@@ -135,7 +135,7 @@ function HomePage({ home }: { home: HomePayload }) {
         <div className="shop-promo-column">
           {promos.map((promo) => (
             <article key={promo.id} className="shop-promo-card">
-              <img src={promo.asset} alt={promo.title} />
+              <img src={promo.asset} alt={promo.title} loading="lazy" />
               <div>
                 <h3>{promo.title}</h3>
                 <p>{promo.tone}</p>
@@ -214,7 +214,7 @@ function ProductDetailPage({ products }: { products: Product[] }) {
           <img src={current.heroAsset} alt={current.name} className="shop-main-image" />
           <div className="shop-thumbnail-row">
             {current.thumbnails.map((asset) => (
-              <img key={asset} src={asset} alt={current.name} />
+              <img key={asset} src={asset} alt={current.name} loading="lazy"/>
             ))}
           </div>
         </div>
@@ -335,7 +335,7 @@ function CartPage({ cart }: { cart: CartPayload }) {
         </div>
         {cart.items.map((item) => (
           <article key={item.id} className="shop-order-item">
-            <img src={item.snapshot.heroAsset} alt={item.snapshot.name} />
+            <img src={item.snapshot.heroAsset} alt={item.snapshot.name} loading="lazy"/>
             <div>
               <strong>{item.snapshot.name}</strong>
               <p>{item.snapshot.shortDescription}</p>
