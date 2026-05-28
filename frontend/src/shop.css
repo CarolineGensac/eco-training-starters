@@ -203,6 +203,7 @@ a {
 .shop-gallery-panel img,
 .shop-order-item img {
   width: 100%;
+  aspect-ratio: 16 / 9;
   display: block;
   border-radius: 18px;
   object-fit: cover;
