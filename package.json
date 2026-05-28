@@ -12,6 +12,12 @@
     "lighthouse": "node scripts/lighthouse.mjs"
   },
   "devDependencies": {
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
     "concurrently": "^9.0.1"
+  },
+  "dependencies": {
+    "@remix-run/router": "^1.23.2",
+    "react-router-dom": "^7.15.1"
   }
 }
